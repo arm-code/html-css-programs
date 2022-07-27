@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id ="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform </p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name <input type="text" required id="name" placeholder="enter your name"></label>
+            <label id="email-label">Email <input type="email" required id="email" placeholder="enter your email"></label>
+            <label id="number-label">Age <input type="number" required id="number" min="0" max="100" placeholder="age"></label>
+        </fieldset>
+        <select id="dropdown">
+            <option value="">full time job</option>
+            <option value="1">full time job</option>
+            <option value="2">full time job</option>
+        </select>
+        <label>Front-end Projects <input type="checkbox" name="radio" value="value">option 1</label>
+        <label><input type="radio" name="check" value="radio1">option 1</label>
+        <label><input type="radio" name="check" value="radio2">option 2</label>
+
+        <label><input type="checkbox" name="check" value="value">Front-end Projects</label>
+        <label><input type="checkbox" name="check" value="value">Front-end Projects</label>
+        <label><input type="checkbox" name="check" value="value">Front-end Projects</label>
+
+        <label>Description:
+          <textarea name="description" rows="3" cols="30" placeholder="I like ..."></textarea>
+			  </label>
+            
+            <input type="submit" id="submit" value="sumbit">
+        
+    </form>
+</body>
+</html>
